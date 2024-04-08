@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #393d3f;
+  --bgSoft: #1d8a99;
+  --text: #e2dadb;
+  --textSoft: #393d3f;
+}
+.radix-themes {
+  --default-font-family: var(--font-inter);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: var(--bg);
+  color: var(--text); 
+} */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  padding: 0.3rem;
+}
+
+h1 {
+  padding: 1rem;
+  display: flex;
+  font-size: xx-large;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ul,
+ol {
+  padding: 0.3rem 0.7rem;
+}
+
+li {
+  justify-content: center;
+}
+
+li li {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+li li :link {
+  padding: 0.5rem;
+} */
+
+/********************  Side Bar ********************/
+
+.sidebar,
+.navbar,
+.cartcard,
+.RightBar {
+  background-color: var(--bgSoft);
+  color: var(--textSoft);
+}
