@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className={inter.variable} data-theme="bumblebee" lang="en">
+    <html className={`${inter.variable}`} data-theme="bumblebee" lang="en">
       <body>
         <Theme
           appearance="dark"

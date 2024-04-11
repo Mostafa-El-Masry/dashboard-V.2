@@ -1,13 +1,13 @@
 import Transactions from "../ui/dashboard/transactions/transactions";
 import Chart from "../ui/dashboard/chart/chart";
-import Cart from "../ui/dashboard/cart/cart";
+import TodosPage from "../ui/dashboard/todos/page";
 
 const DashBoard = () => {
   return (
     <div className="flex flex-row justify-between gap-3">
       <div className="flex flex-4 flex-col gap-3">
         <div className="flex-1 mt-5 mb-5">
-          <Cart />
+          <TodosPage />
         </div>
         <Transactions />
         <Chart />
