@@ -1,7 +1,7 @@
 import React from "react";
 import RightBar from "./rightbar/page";
 
-const layout = ({ children }) => {
+const layout = ({ children }:{children: React.ReactNode}) => {
   return (
     <div className="flex flex-row justify-between">
       {children}

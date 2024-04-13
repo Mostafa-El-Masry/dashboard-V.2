@@ -31,13 +31,7 @@ const NewIssuePage = () => {
           <FaMagnifyingGlass height="16" width="16" />
         </TextField.Slot>
       </TextField.Root>
-      <Controller
-        name="description"
-        control={control}
-        render={({ field }) => (
-          <SimpleMDE placeholder="Description" {...field} />
-        )}
-      />
+
 
       <Button>Submit New Issue</Button>
     </form>
