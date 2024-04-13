@@ -15,6 +15,11 @@ const menuItems = [
         icon: <MdDashboard />,
       },
       {
+        title: "ToDoS",
+        path: "/todos",
+        icon: <MdDashboard />,
+      },
+      {
         title: "NoteBook",
         path: "https://note-book-nine.vercel.app/",
         icon: <FaAddressBook />,
