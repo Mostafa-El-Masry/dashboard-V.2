@@ -33,7 +33,7 @@ export default function RootLayout({
           radius="large"
           scaling="110%"
         >
-          <div className="flex flex-col">
+          <div className="flex flex-col m-auto">
             <div>
               <Navbar />
             </div>
@@ -41,7 +41,7 @@ export default function RootLayout({
               <div className="sidebar flex-none ml-24 w-2/12 min-w-64 h-screen mr-5">
                 <Sidebar />
               </div>
-              <main className="flex-1 main p-5">{children}</main>
+              <main className="flex-1 main p-5 container">{children}</main>
             </div>
           </div>
           {/* <ThemePanel /> */}
